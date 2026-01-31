@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Monogame Projects/PacmanGame/Content/pacman-wall-24.png</SourceFile>
+  <SourceTime>2018-08-15T11:32:58+08:00</SourceTime>
+  <DestFile>C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/pacman-wall-24_0.xnb</DestFile>
+  <DestTime>2026-01-13T11:20:27.333358+08:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2025-10-20T22:25:32+08:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2025-10-20T22:25:32+08:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>0,0,0,0</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

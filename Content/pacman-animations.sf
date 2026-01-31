@@ -1,0 +1,39 @@
+{
+  "textureAtlas": {
+    "texture": "pacman-sprites.png",
+    "regionWidth": 24,
+    "regionHeight": 24
+  },
+  "cycles": {
+    "pacmanCentre": {
+      "frames": [112],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "pacmanRight": {
+      "frames": [52,54],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "pacmanLeft": {
+      "frames": [48,50],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "pacmanUp": {
+      "frames": [49,51],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "pacmanDown": {
+      "frames": [53,55],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "pacmanDead": {
+      "frames": [116,117,118,119,120,121,122,123,124,125,126],
+      "isLooping": false,
+      "frameDuration": 0.2
+    }
+  }
+}

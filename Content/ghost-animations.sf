@@ -1,0 +1,29 @@
+{
+  "textureAtlas": {
+    "texture": "pacman-sprites.png",
+    "regionWidth": 24,
+    "regionHeight": 24
+  },
+  "cycles": {
+    "ghostRedRight": {
+      "frames": [96,97],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "ghostRedLeft": {
+      "frames": [100,101],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "ghostRedDown": {
+      "frames": [98,99],
+      "isLooping": true,
+      "frameDuration": 0.2
+    },
+    "ghostRedUp": {
+      "frames": [102,103],
+      "isLooping": true,
+      "frameDuration": 0.2
+    }
+  }
+}
