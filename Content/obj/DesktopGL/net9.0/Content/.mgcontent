@@ -4,12 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Monogame Projects/PacmanGame/Content/graph-directions.png</File>
-    <File>C:/Monogame Projects/PacmanGame/Content/pacman-sprites.png</File>
-    <File>C:/Monogame Projects/PacmanGame/Content/pacman-tileset.tsx</File>
-    <File>C:/Monogame Projects/PacmanGame/Content/pacman-wall-24.png</File>
-    <File>C:/Monogame Projects/PacmanGame/Content/pacman.tmx</File>
-    <File>C:/Monogame Projects/PacmanGame/Content/path.png</File>
+    <File>D:/Monogame/PacmanGame/Content/graph-directions.png</File>
+    <File>D:/Monogame/PacmanGame/Content/pacman-sprites.png</File>
+    <File>D:/Monogame/PacmanGame/Content/pacman-tileset.tsx</File>
+    <File>D:/Monogame/PacmanGame/Content/pacman-wall-24.png</File>
+    <File>D:/Monogame/PacmanGame/Content/pacman.tmx</File>
+    <File>D:/Monogame/PacmanGame/Content/path.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

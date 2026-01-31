@@ -1,7 +1,7 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Monogame Projects/PacmanGame/Content/graph-directions.png","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/graph-directions.xnb","TextureProcessor","Texture2DContent",616,36949,0.1088312
-"C:/Monogame Projects/PacmanGame/Content/pacman-sprites.png","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/pacman-sprites.xnb","TextureProcessor","Texture2DContent",5581,368725,0.110355
-"C:/Monogame Projects/PacmanGame/Content/pacman-tileset.tsx","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/pacman-tileset.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",246,187,0.1590158
-"C:/Monogame Projects/PacmanGame/Content/pacman-wall-24.png","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/pacman-wall-24_0.xnb","TextureProcessor","Texture2DContent",2126,13909,0.1048815
-"C:/Monogame Projects/PacmanGame/Content/pacman.tmx","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/pacman.xnb","TiledMapProcessor","TiledMapContentItem",3824,4501,0.0500027
-"C:/Monogame Projects/PacmanGame/Content/path.png","C:/Monogame Projects/PacmanGame/Content/bin/DesktopGL/Content/path.xnb","TextureProcessor","Texture2DContent",703,20821,0.0033312
+"D:/Monogame/PacmanGame/Content/graph-directions.png","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/graph-directions.xnb","TextureProcessor","Texture2DContent",616,36949,0.1169026
+"D:/Monogame/PacmanGame/Content/pacman-sprites.png","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/pacman-sprites.xnb","TextureProcessor","Texture2DContent",5581,368725,0.0175884
+"D:/Monogame/PacmanGame/Content/pacman-tileset.tsx","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/pacman-tileset.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",246,187,0.0352525
+"D:/Monogame/PacmanGame/Content/pacman-wall-24.png","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/pacman-wall-24.xnb","TextureProcessor","Texture2DContent",2126,13909,0.0022018
+"D:/Monogame/PacmanGame/Content/pacman.tmx","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/pacman.xnb","TiledMapProcessor","TiledMapContentItem",3824,4501,0.0480753
+"D:/Monogame/PacmanGame/Content/path.png","D:/Monogame/PacmanGame/Content/bin/DesktopGL/Content/path.xnb","TextureProcessor","Texture2DContent",703,20821,0.0021092

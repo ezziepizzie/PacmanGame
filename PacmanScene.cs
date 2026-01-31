@@ -11,11 +11,18 @@ namespace PacmanGame
             gameMap.StartColumn = 18;
             gameMap.StartRow = 11;
 
-            // Pathfinding Tester (Commented for Problem 4 and 5)
+            // Pathfinding Tester
             // PathfindingTester pathfindingTester = new PathfindingTester("PathfindingTester");
 
-            // Ghost (For Problem 4 and 5)
+            // Ghost
             Ghost ghost = new Ghost();
+
+            // Pac Man
+            Pacman pacman = new Pacman();
+            pacman.Speed = 100f;
+            pacman.StartColumn = 1;
+            pacman.StartRow = 1;
+            pacman.NavigableTileLayerName = "Food";
         }
     }
 }

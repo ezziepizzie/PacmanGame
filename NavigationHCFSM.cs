@@ -9,12 +9,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GAlgoT2530.AI;
 
 namespace PacmanGame
 {
-    public class NavigationHCFSM
+    public class NavigationHCFSM : HCFSM
     {
-        enum NavigationState { STOP, MOVING }
+        public enum NavigationState { STOP, MOVING }
         private NavigationState _currentState = NavigationState.STOP;
 
         private Ghost _ghost;
@@ -25,45 +26,29 @@ namespace PacmanGame
         TileGraph _tileGraph;
         TiledMap _tiledMap;
 
-        public NavigationHCFSM(Ghost ghost) 
+        public NavigationHCFSM(Ghost ghost, NavigationState initialState) 
         {
             _ghost = ghost;
+            _currentState = initialState;
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
-            GameMap gameMap =
-                (GameMap)GameObjectCollection.FindByName("GameMap");
+            GameMap gameMap = (GameMap)GameObjectCollection.FindByName("GameMap");
+
+            TiledMap tiledMap = gameMap.TiledMap;
+
+            _srcTile = new Tile(gameMap.StartColumn, gameMap.StartRow);
+        }
+
+        public override void Update()
+        {
+            MouseState mouse = Mouse.GetState();
+
+            GameMap gameMap = (GameMap)GameObjectCollection.FindByName("GameMap");
 
             _tiledMap = gameMap.TiledMap;
             _tileGraph = gameMap.TileGraph;
-
-            _srcTile = new Tile(gameMap.StartColumn, gameMap.StartRow);
-
-            _ghost.Position =
-                Tile.ToPosition(_srcTile, _tiledMap.TileWidth, _tiledMap.TileHeight);
-        }
-
-        public Vector2 Move(Vector2 src, Vector2 dest, float elapsedSeconds)
-        {
-            Vector2 dP = dest - src;
-            float distance = dP.Length();
-            float step = _ghost.MaxSpeed * elapsedSeconds;
-
-            if (step < distance)
-            {
-                dP.Normalize();
-                return src + (dP * step);
-            }
-            else
-            {
-                return dest;
-            }
-        }
-
-        public void Update()
-        {
-            MouseState mouse = Mouse.GetState();
 
             int tileWidth = _tiledMap.TileWidth;
             int tileHeight = _tiledMap.TileHeight;
@@ -103,7 +88,6 @@ namespace PacmanGame
 
                         ********************************************************************************/
                         _path.RemoveFirst();
-
                         _ghost.UpdateAnimatedSprite(_srcTile, _path.First.Value);
 
                         // Change to MOVING state
@@ -140,26 +124,26 @@ namespace PacmanGame
                     {
                         Debug.WriteLine($"Reached the next tile (Col = {nextTile.Col}, Row = {nextTile.Row}).");
                         Debug.WriteLine($"Removing this tile from the path and getting the new next tile from path.");
+                        
+
+                    /********************************************************************************
+                        PROBLEM 3(C): Update the animation based on the current tile and next tile .
 
 
-                        /********************************************************************************
-                            PROBLEM 3(C): Update the animation based on the current tile and next tile .
+                        HOWTOSOLVE : 1. Copy the code below.
+                                     2. Paste it below this block comment.
+                                     3. Fill in the blanks.
 
+                        // Get the position of the new next tile from the path
+                        _path.RemoveFirst();
+                        Tile newNextTile = _path.________.________;
+                        nextTilePosition = Tile.ToPosition(________, tileWidth, ________);
 
-                            HOWTOSOLVE : 1. Copy the code below.
-                                         2. Paste it below this block comment.
-                                         3. Fill in the blanks.
+                        // Update the animation
+                        UpdateAnimatedSprite(nextTile, ________);
 
-                            // Get the position of the new next tile from the path
-                            _path.RemoveFirst();
-                            Tile newNextTile = _path.________.________;
-                            nextTilePosition = Tile.ToPosition(________, tileWidth, ________);
-
-                            // Update the animation
-                            UpdateAnimatedSprite(nextTile, ________);
-
-                        ********************************************************************************/
-
+                    ********************************************************************************/
+                        
                         _path.RemoveFirst();
                         Tile newNextTile = _path.First.Value;
                         nextTilePosition = Tile.ToPosition(newNextTile, tileWidth, tileHeight);
@@ -168,20 +152,20 @@ namespace PacmanGame
                     }
 
                     // Move the ghost to the new tile location
-                    _ghost.Position = Move(_ghost.Position, nextTilePosition, elapsedSeconds);
+                    _ghost.Position = _ghost.Move(_ghost.Position, nextTilePosition, elapsedSeconds);
 
-                    /********************************************************************************
-                        PROBLEM 3(C): Running the ghost animation.
+                /********************************************************************************
+                    PROBLEM 3(C): Running the ghost animation.
 
 
-                        HOWTOSOLVE : 1. Copy the code below.
-                                     2. Paste it below this block comment.
-                                     3. Fill in the blanks.
+                    HOWTOSOLVE : 1. Copy the code below.
+                                 2. Paste it below this block comment.
+                                 3. Fill in the blanks.
 
-                        AnimatedSprite.Update(________);
+                    AnimatedSprite.Update(________);
 
-                    ********************************************************************************/
-
+                ********************************************************************************/
+                    
                     _ghost.AnimatedSprite.Update(ScalableGameTime.GameTime);
                 }
             }
