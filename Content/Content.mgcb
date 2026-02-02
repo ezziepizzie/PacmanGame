@@ -26,6 +26,11 @@
 /processorParam:TextureFormat=Color
 /build:graph-directions.png
 
+#begin pacman-asgn2.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:pacman-asgn2.tmx
+
 #begin pacman-sprites.png
 /importer:TextureImporter
 /processor:TextureProcessor

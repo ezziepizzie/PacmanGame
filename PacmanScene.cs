@@ -18,11 +18,11 @@ namespace PacmanGame
             Ghost ghost = new Ghost();
 
             // Pac Man
-            Pacman pacman = new Pacman();
-            pacman.Speed = 100f;
-            pacman.StartColumn = 1;
-            pacman.StartRow = 1;
-            pacman.NavigableTileLayerName = "Food";
+            //Pacman pacman = new Pacman();
+            //pacman.Speed = 100f;
+            //pacman.StartColumn = 1;
+            //pacman.StartRow = 1;
+            //pacman.NavigableTileLayerName = "Food";
         }
     }
 }

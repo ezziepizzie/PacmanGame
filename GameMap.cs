@@ -29,7 +29,7 @@ namespace PacmanGame
 
 		public override void LoadContent()
         {
-            TiledMap = _game.Content.Load<TiledMap>("pacman");
+            TiledMap = _game.Content.Load<TiledMap>("pacman-asgn2");
         }
 
         public override void Initialize()

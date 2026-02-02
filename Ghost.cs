@@ -88,8 +88,9 @@ namespace PacmanGame
             Position = Tile.ToPosition(startTile, _tiledMap.TileWidth, _tiledMap.TileHeight);
 
             //FSM = new NavigationHCFSM(this, NavigationHCFSM.NavigationState.STOP);
-            Pacman pacman = (Pacman)GameObjectCollection.FindByName("Pacman");
-            FSM = new GhostHCFSM(_game, this, _tiledMap, _tileGraph, pacman);
+            //Pacman pacman = (Pacman)GameObjectCollection.FindByName("Pacman");
+            //FSM = new GhostHCFSM(_game, this, _tiledMap, _tileGraph, pacman);
+            FSM = new GhostStealingHCFSM(_game, this, _tiledMap, _tileGraph);
             FSM.Initialize();
         }
 
