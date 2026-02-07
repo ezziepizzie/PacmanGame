@@ -47,7 +47,7 @@ namespace PacmanGame
 
         public override void Initialize()
         {
-            MaxSpeed = 100.0f;
+            MaxSpeed = 300.0f;
 
             GameMap gameMap = (GameMap)GameObjectCollection.FindByName("GameMap");
             _tiledMap = gameMap.TiledMap;
@@ -101,6 +101,11 @@ namespace PacmanGame
 
         public override void Draw()
         {
+            if (FSM is GhostStealingHCFSM ghostStealingHCFSM)
+            {
+                ghostStealingHCFSM.Draw();
+            }
+
             // Draw the ghost at his position, extracting only the ghost image from the texture
             _game.SpriteBatch.Begin();
 

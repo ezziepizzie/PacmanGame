@@ -1,6 +1,8 @@
 ﻿using GAlgoT2530.AI;
 using GAlgoT2530.Engine;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using MonoGame.Extended.Content.Tiled;
 using MonoGame.Extended.Tiled;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -30,6 +32,9 @@ namespace PacmanGame
         private int _currentPelletIndex = 0;
         private Vector2 _nextTilePosition;
 
+        private HashSet<Tile> _coverTiles;
+        private Texture2D _coverTexture;
+        private Rectangle _coverTileRect;
 
         public GhostStealingHCFSM(GameEngine game, Ghost ghost, TiledMap map, TileGraph graph)
         {
@@ -40,10 +45,15 @@ namespace PacmanGame
             _tiledMap = map;
             _tileGraph = graph;
             _currentPelletIndex = 0;
+
+            _coverTiles = new HashSet<Tile>();
         }
 
         public override void Initialize()
         {
+            _coverTexture = _game.Content.Load<Texture2D>("pacman-wall-24");
+            _coverTileRect = new Rectangle(96, 0, 24, 24);
+
             LoadWaypoints(_tiledMap);
 
             CurrentState = State.Stealing;
@@ -149,9 +159,6 @@ namespace PacmanGame
             {
                 _path.RemoveFirst();
 
-                //THISSSSSSSSSSS
-                //_path.RemoveFirst();
-
                 if (_path.Count > 0)
                 {
                     Tile nextTile = _path.First.Value;
@@ -192,7 +199,7 @@ namespace PacmanGame
             Vector2 pelletPosition = _pellets[index];
             Tile pellettile = Tile.ToTile(pelletPosition, _tiledMap.TileWidth, _tiledMap.TileHeight);
 
-            //RemovePellet(pellettile);
+            CoverPelletTileWithEmptyTile(pellettile);
         }
 
         private void ReachedTargetTile()
@@ -224,6 +231,75 @@ namespace PacmanGame
             {
                 Debug.WriteLine("Ghost reached goal position.");
             }
+        }
+
+        public void CoverPelletTileWithEmptyTile(Tile pelletTileLocation)
+        {
+            TiledMapTileLayer _pelletLayer = _tiledMap.GetLayer<TiledMapTileLayer>("Food");
+
+            bool hasTile = _pelletLayer.TryGetTile((ushort)pelletTileLocation.Col, (ushort)pelletTileLocation.Row, out TiledMapTile? pelletTile);
+
+            if (hasTile)
+            {
+                // Pellet tile (3) or Power Pellet tile (4)
+                if (pelletTile.Value.GlobalIdentifier == 3 || pelletTile.Value.GlobalIdentifier == 4)
+                {
+                    /********************************************************************************
+                        PROBLEM 1 : Fill up the pellet tiles with empty tiles
+
+
+                        HOWTOSOLVE : 1. Copy the code below.
+                                     2. Paste it below this block comment.
+                                     3. Fill in the blanks.
+
+                        // Add empty tile only to cover newly discovered pellet tiles
+                        if (!_coverTiles.Contains(pelletTileLocation))
+                        {
+                            _coverTiles.Add(________);
+
+                            // Fires PelletsCleared event if all pellets has been cleared
+                            // (i.e. number of cover tiles == number of navigable nodes in the graph)
+                            if (_coverTiles.Count == _tileGraph.________.________)
+                            {
+                                PelletsCleared?.Invoke();
+                            }
+
+                            // Restart power pellet count down timer if one is found
+                            if (pacmanTile.Value.GlobalIdentifier == 4)
+                            {
+                                RestartPowerPelletTime();
+                            }
+                        }
+                    ********************************************************************************/
+
+                    if (!_coverTiles.Contains(pelletTileLocation))
+                    {
+                        _coverTiles.Add(pelletTileLocation);
+
+                        // Fires PelletsCleared event if all pellets has been cleared
+                        // (i.e. number of cover tiles == number of navigable nodes in the graph)
+                        //if (_coverTiles.Count == _tileGraph.Nodes.Count)
+                        //{
+                        //    PelletsCleared?.Invoke();
+                        //}
+
+                    }
+                }
+            }
+        }
+
+        public void Draw()
+        {
+            _game.SpriteBatch.Begin();
+
+            // Draw all cover tiles
+            foreach (Tile t in _coverTiles)
+            {
+                Vector2 position = Tile.ToPosition(t, _tiledMap.TileWidth, _tiledMap.TileHeight);
+                _game.SpriteBatch.Draw(_coverTexture, position, _coverTileRect, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 1f);
+            }
+
+            _game.SpriteBatch.End();
         }
     }
 }

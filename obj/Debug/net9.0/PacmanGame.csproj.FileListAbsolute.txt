@@ -90,3 +90,6 @@ D:\Monogame\PacmanGame\obj\Debug\net9.0\PacmanGame.pdb
 D:\Monogame\PacmanGame\obj\Debug\net9.0\PacmanGame.genruntimeconfig.cache
 D:\Monogame\PacmanGame\obj\Debug\net9.0\ref\PacmanGame.dll
 D:\Monogame\PacmanGame\bin\Debug\net9.0\Content\pacman-asgn2.xnb
+C:\Monogame Projects\PacmanGame\bin\Debug\net9.0\Content\pacman-asgn2.xnb
+C:\Monogame Projects\PacmanGame\bin\Debug\net9.0\Content\pacman-asgn2_v2.xnb
+C:\Monogame Projects\PacmanGame\obj\Debug\net9.0\PacmanGame.sourcelink.json
