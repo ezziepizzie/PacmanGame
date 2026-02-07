@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Monogame Projects\\PacmanGame\\PacmanGame.csproj": {}
+    "D:\\Monogame\\PacmanGame\\PacmanGame.csproj": {}
   },
   "projects": {
-    "C:\\Monogame Projects\\PacmanGame\\PacmanGame.csproj": {
+    "D:\\Monogame\\PacmanGame\\PacmanGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Monogame Projects\\PacmanGame\\PacmanGame.csproj",
+        "projectUniqueName": "D:\\Monogame\\PacmanGame\\PacmanGame.csproj",
         "projectName": "PacmanGame",
-        "projectPath": "C:\\Monogame Projects\\PacmanGame\\PacmanGame.csproj",
-        "packagesPath": "C:\\Users\\the46\\.nuget\\packages\\",
-        "outputPath": "C:\\Monogame Projects\\PacmanGame\\obj\\",
+        "projectPath": "D:\\Monogame\\PacmanGame\\PacmanGame.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\Monogame\\PacmanGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\the46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

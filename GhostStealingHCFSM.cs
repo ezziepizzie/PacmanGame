@@ -138,12 +138,6 @@ namespace PacmanGame
 
             pelletDistances.Sort((a, b) => a.distance.CompareTo(b.distance));
 
-            Debug.WriteLine("Power pellets sorted by distance from Home:");
-            for (int i = 0; i < pelletDistances.Count; i++)
-            {
-                Debug.WriteLine($"  {i + 1}. Position: ({pelletDistances[i].pellet.X}, {pelletDistances[i].pellet.Y}), Path Length: {pelletDistances[i].distance}");
-            }
-
             return pelletDistances.Select(p => p.pellet).ToList();
         }
 

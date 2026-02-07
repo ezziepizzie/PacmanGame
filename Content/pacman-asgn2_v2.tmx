@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="51" height="31" tilewidth="24" tileheight="24" infinite="0" nextlayerid="5" nextobjectid="18">
- <tileset firstgid="1" source="C:/Monogame Projects/PacmanGame/Content/pacman-tileset.tsx"/>
+ <tileset firstgid="1" source="pacman-tileset.tsx"/>
  <layer id="2" name="Ghost Home" width="51" height="31">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
