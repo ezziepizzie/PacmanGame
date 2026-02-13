@@ -8,6 +8,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
+// Acknowledgement / Honour Code:
+// - Pathfinding logic as well as tile cover logic were gotten from the labs material.
+// - Online help is used to figure out how to sort lists in C#.
+// - AI is used to help debug issues regarding animation state.
+
 namespace PacmanGame
 {
     public class GhostStealingHCFSM : HCFSM

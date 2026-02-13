@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Monogame\\PacmanGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\content\\pacman-asgn2_v2.tmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:content\\pacman-asgn2_v2.tmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\ghoststealinghcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:ghoststealinghcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\content\\pacman_asgn2.tmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:content\\pacman_asgn2.tmx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}",
+      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\gamemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:gamemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\pacmanscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\ghoststealinghcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:ghoststealinghcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\ghosthcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:ghosthcfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\pathfindingtester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:pathfindingtester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|solutionrelative:ghost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00904E7A-38E3-426C-9632-3CC197D2FCEB}|PacmanGame.csproj|d:\\monogame\\pacmangame\\engine\\animationgameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,17 +86,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GhostStealingHCFSM.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\GhostStealingHCFSM.cs",
               "RelativeDocumentMoniker": "GhostStealingHCFSM.cs",
               "ToolTip": "D:\\Monogame\\PacmanGame\\GhostStealingHCFSM.cs",
               "RelativeToolTip": "GhostStealingHCFSM.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAUwA4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAADwv8oAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T07:53:29.251Z",
               "IsPinned": true,
@@ -100,20 +104,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "pacman-asgn2_v2.tmx",
-              "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Content\\pacman-asgn2_v2.tmx",
-              "RelativeDocumentMoniker": "Content\\pacman-asgn2_v2.tmx",
-              "ToolTip": "D:\\Monogame\\PacmanGame\\Content\\pacman-asgn2_v2.tmx",
-              "RelativeToolTip": "Content\\pacman-asgn2_v2.tmx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "pacman_asgn2.tmx",
+              "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Content\\pacman_asgn2.tmx",
+              "RelativeDocumentMoniker": "Content\\pacman_asgn2.tmx",
+              "ToolTip": "D:\\Monogame\\PacmanGame\\Content\\pacman_asgn2.tmx",
+              "RelativeToolTip": "Content\\pacman_asgn2.tmx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-07T13:24:30.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T13:52:35.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Content.mgcb",
+              "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Content\\Content.mgcb",
+              "RelativeDocumentMoniker": "Content\\Content.mgcb",
+              "ToolTip": "D:\\Monogame\\PacmanGame\\Content\\Content.mgcb",
+              "RelativeToolTip": "Content\\Content.mgcb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-07T13:51:56.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TileGraph.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\TileGraph.cs",
               "RelativeDocumentMoniker": "TileGraph.cs",
@@ -121,12 +135,11 @@
               "RelativeToolTip": "TileGraph.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAnwIAAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:26:49.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T03:26:49.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -134,12 +147,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:22:03.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T03:22:03.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AnimationGameObject.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Engine\\AnimationGameObject.cs",
               "RelativeDocumentMoniker": "Engine\\AnimationGameObject.cs",
@@ -147,38 +159,35 @@
               "RelativeToolTip": "Engine\\AnimationGameObject.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:37:26.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T03:37:26.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameMap.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\GameMap.cs",
               "RelativeDocumentMoniker": "GameMap.cs",
               "ToolTip": "D:\\Monogame\\PacmanGame\\GameMap.cs",
               "RelativeToolTip": "GameMap.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:32:00.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T03:32:00.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Ghost.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Ghost.cs",
               "RelativeDocumentMoniker": "Ghost.cs",
               "ToolTip": "D:\\Monogame\\PacmanGame\\Ghost.cs",
               "RelativeToolTip": "Ghost.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAIwIAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAIAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:39:33.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T03:39:33.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PacmanScene.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\PacmanScene.cs",
               "RelativeDocumentMoniker": "PacmanScene.cs",
@@ -186,12 +195,11 @@
               "RelativeToolTip": "PacmanScene.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:31:40.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T03:31:40.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PathfindingTester.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\PathfindingTester.cs",
               "RelativeDocumentMoniker": "PathfindingTester.cs",
@@ -199,12 +207,11 @@
               "RelativeToolTip": "PathfindingTester.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAAMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T03:43:04.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T03:43:04.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GhostHCFSM.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\GhostHCFSM.cs",
               "RelativeDocumentMoniker": "GhostHCFSM.cs",
@@ -212,12 +219,11 @@
               "RelativeToolTip": "GhostHCFSM.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAALsBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T07:23:16.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T07:23:16.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GhostLab10Problem3.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\GhostLab10Problem3.cs",
               "RelativeDocumentMoniker": "GhostLab10Problem3.cs",
@@ -229,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HCFSM.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\HCFSM.cs",
               "RelativeDocumentMoniker": "HCFSM.cs",
@@ -241,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Pacman.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Pacman.cs",
               "RelativeDocumentMoniker": "Pacman.cs",
@@ -253,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AStar.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\AStar.cs",
               "RelativeDocumentMoniker": "AStar.cs",
@@ -265,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GhostLab09.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\GhostLab09.cs",
               "RelativeDocumentMoniker": "GhostLab09.cs",
@@ -277,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NavigationHCFSM.cs",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\NavigationHCFSM.cs",
               "RelativeDocumentMoniker": "NavigationHCFSM.cs",
@@ -289,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ghost-animations.sf",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Content\\ghost-animations.sf",
               "RelativeDocumentMoniker": "Content\\ghost-animations.sf",
@@ -301,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "pacman-sprites.png",
               "DocumentMoniker": "D:\\Monogame\\PacmanGame\\Content\\pacman-sprites.png",
               "RelativeDocumentMoniker": "Content\\pacman-sprites.png",

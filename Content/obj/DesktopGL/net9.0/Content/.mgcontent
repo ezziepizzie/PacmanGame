@@ -5,8 +5,7 @@
   <Config />
   <SourceFiles>
     <File>D:/Monogame/PacmanGame/Content/graph-directions.png</File>
-    <File>D:/Monogame/PacmanGame/Content/pacman-asgn2_v2.tmx</File>
-    <File>D:/Monogame/PacmanGame/Content/pacman-asgn2.tmx</File>
+    <File>D:/Monogame/PacmanGame/Content/pacman_asgn2.tmx</File>
     <File>D:/Monogame/PacmanGame/Content/pacman-sprites.png</File>
     <File>D:/Monogame/PacmanGame/Content/pacman-tileset.tsx</File>
     <File>D:/Monogame/PacmanGame/Content/pacman-wall-24.png</File>
@@ -14,7 +13,6 @@
     <File>D:/Monogame/PacmanGame/Content/path.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
